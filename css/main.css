@@ -1,3 +1,54 @@
 /*
  * Estilos de tu proyecto
  */
+
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+}
+ .both {
+    list-style: none; 
+    /*outline: 1px solid red;*/
+    display: inline-block;
+    
+}
+.text-style {
+  text-decoration: none;
+  /*outline: 1px solid blue;*/
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+li {
+  /*outline: 1px solid green;*/
+  display: inline;
+  
+}
+header {
+  /*outline: 1px solid yellow;*/
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #212529;
+  padding: 40px 5px;
+  box-sizing: border-box;
+}
+.text-right {
+  float: right;
+}
+.section1 {
+  display: block;
+  margin-top: 100px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #18bc9c;
+  color: #fff;
+}
+
