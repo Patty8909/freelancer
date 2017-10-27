@@ -43,6 +43,7 @@ header {
 .text-right {
   float: right;
 }
+
 .section1 {
   display: block;
   margin-top: 100px;
@@ -50,5 +51,81 @@ header {
   text-align: center;
   background-color: #18bc9c;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  height: 650px;
+}
+.section2 {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #fff;
+  display: block;
+  height: 800px;
+ 
+}
+.section3 {
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #18bc9c;
+  color: #fff;
+  height: 650px;
+  display: block;
+
+}
+.font-style {
+  font-size: 5.5em;
+  font-weight: 900;
+}
+.font-skills {
+  font-size: 1.7em;
+  font-weight: 500;
 }
 
+.images-portfolio {
+  float: left;
+  margin-left: 95px;
+}
+
+.size-img {
+  width: 350px;
+  height: 250px;
+  margin: 10px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.font {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.font-about {
+  font-size: 2.5em;
+  font-weight: 700;
+}
+/*Dando estilos a la sección formulario*/
+.form-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2rem;
+}
+.input, .submit {
+  border: none;
+  border-bottom: solid gray 0.05rem;
+  font-family: 'Lato', sans-serif;
+}
+.submit {
+  border: none;
+  background-color: #18bc9c;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  font-size: 1.25rem;
+  margin: 2rem 0; 
+}
+.input {
+  font-size: 1.5em;
+  color: #212529;
+  line-height: 3.5em;
+}

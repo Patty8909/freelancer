@@ -8,6 +8,7 @@
     <title>Reto Freelancer</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -20,32 +21,44 @@
             <li><a href="#" class="text-style size1">contact</a></li>
         </ul>
     </header>
-    <section class="section1">
+    <section class="section1 sections">
       <figure>
           <img src="assets/images/profile.png" alt="profile">
       </figure>
-      <div>start bootstrap</div>
+      <div class="font-style" >START BOOTSTRAP</div>
       <span><i class="fa fa-star"></i></span>
-      <div>Web Developer - Graphic Artist - User Experience Designer</div>
+      <div class="font-skills">Web Developer - Graphic Artist - User Experience Designer</div>
     </section>
-    <section>
-        <div>portfolio</div>
-        <figure>
-            <img src="assets/images/portfolio/cabin.png" alt="cabin">
-            <img src="assets/images/portfolio/cake.png" alt="cake">
-            <img src="assets/images/portfolio/circus.png" alt="circus">
-            <img src="assets/images/portfolio/game.png" alt="game">
-            <img src="assets/images/portfolio/safe.png" alt="safe">
-            <img src="assets/images/portfolio/submarine.png" alt="submarine">
+    <section class="section2">
+        <div class="text-uppercase font">portfolio</div>
+        <span><i class="fa fa-star"></i></span>
+        <figure class="images-portfolio">
+            <img class="size-img" src="assets/images/portfolio/cabin.png" alt="cabin">
+            <img class="size-img" src="assets/images/portfolio/cake.png" alt="cake">
+            <img class="size-img" src="assets/images/portfolio/circus.png" alt="circus">
+            <img class="size-img" src="assets/images/portfolio/game.png" alt="game">
+            <img class="size-img" src="assets/images/portfolio/safe.png" alt="safe">
+            <img class="size-img" src="assets/images/portfolio/submarine.png" alt="submarine">
         </figure>
     </section>
-    <section>
-        <div>About</div>
+    <section class="section3 sections" >
+        <div class="text-uppercase font-about font">About</div>
         <div>
             <div>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</div>
             <div>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</div>
         </div>
         <div>Download Theme</div>
+    </section>
+    <section>
+        <form class="form-style" action="">
+            <div><input class="input" type="text" placeholder="Name"></div>
+            <div><input class="input" type="email" placeholder="Email Address"></div>
+            <div><input class="input" type="tel" placeholder="Phone Number"></div>
+            <div><input class="input" type="text" placeholder="Message"></div>
+            <div>
+                <button class="submit" type="submit">Send</button>
+            </div>
+        </form>
     </section>
 </body>
 </html>
