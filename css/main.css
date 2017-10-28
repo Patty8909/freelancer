@@ -1,24 +1,14 @@
-/*
- * Estilos de tu proyecto
- */
-
 
 * {
   margin: 0;
   padding: 0;
-
-}
-
 }
  .both {
     list-style: none; 
-    /*outline: 1px solid red;*/
-    display: inline-block;
-    
+    display: inline-block;    
 }
 .text-style {
   text-decoration: none;
-  /*outline: 1px solid blue;*/
   display: inline-block;
   width: 200px;
   text-align: center;
@@ -26,13 +16,14 @@
   font-family: 'Montserrat', sans-serif;
   color: #fff;
 }
+#size1 {
+  width: 90px;
+  font-weight: 700;
+}
 li {
-  /*outline: 1px solid green;*/
-  display: inline;
-  
+  display: inline; 
 }
 header {
-  /*outline: 1px solid yellow;*/
   position: fixed;
   width: 100%;
   top: 0;
@@ -42,8 +33,17 @@ header {
 }
 .text-right {
   float: right;
+  padding-right: 150px;
 }
-
+.text-left {
+  padding-left: 150px;
+}
+.size {
+  font-size: 1.7rem;
+  width: 400px;
+  font-weight: 900;
+}
+/* Estilos generales para las secciones 1 a 4 */
 .section1 {
   display: block;
   margin-top: 95px;
@@ -62,7 +62,6 @@ header {
   display: block;
   height: 800px;
   padding-top: 100px;
- 
 }
 .section3 {
   box-sizing: border-box;
@@ -90,17 +89,14 @@ header {
   float: left;
   margin-left: 95px;
 }
-
 .size-img {
   width: 350px;
   height: 250px;
   margin: 10px;
 }
-
 .text-uppercase {
   text-transform: uppercase;
 }
-
 .font {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
@@ -113,6 +109,10 @@ header {
   font-family: 'Lato', sans-serif;
   font-size: 1.3em;
   line-height: 1.5em;
+  width: 30%;
+  display: inline-block;
+  text-align: left;
+  margin: 10px;
 }
 .font-dt {
   font-family: 'Montserrat', sans-serif;
@@ -123,9 +123,7 @@ header {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 7px;
-}
-.twocolumns {
-  
+  margin-top: 20px;
 }
 /*Dando estilos a la sección formulario*/
 .form-style {
@@ -159,4 +157,23 @@ header {
   color: #fff;
   background-color: #212529;
   font-family: 'Montserrat', sans-serif;
+  height: 300px;
+  text-align: center;
+  line-height: 2em;
+  padding-top: 50px;
+}
+.column {
+  box-sizing: inherit;
+  display: inline-block;
+  width: 30%;
+}
+.foot2 {
+  padding-top: 50px;
+}
+.circle {
+  border: 2px solid #fff;
+  border-radius: 50px;
+  padding: 15px;
+  margin: 5px;
+  font-size: 30px;
 }
